@@ -38,5 +38,9 @@ Incident Communication
 - Post-incident blameless retrospective scheduled
 
 ## Escalation Paths
-- Team-level -> PM -> Product Lead -> Sponsor
+- Team-level (addressed by **Scrum Master** or team lead) -> **PM** -> Product Lead -> Sponsor
 - For security incidents, follow the security incident runbook and notify Security on-call
+- Production issues escalated from **Support & Operations** to **DevOps Engineers** and **Developers**
+- Customer feedback flows from **Support** to **PdM** for prioritization
+
+For role-specific communication patterns and collaboration touchpoints, see [Roles and Personas](octoacme-roles-and-personas.md).
