@@ -13,11 +13,13 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Decide go/no-go for planning
 
 ## Minimum Deliverables
-- Project One-pager (Problem, Goal, Success Metrics)
-- Stakeholder list & communication plan
-- High-level timeline and key milestones
-- Initial risk list
-- Resource needs (team roles, rough effort estimate)
+- Project One-pager (Problem, Goal, Success Metrics) - drafted by **PM** with input from **PdM** and **Business Analyst**
+- Stakeholder list & communication plan - identified by **PM**
+- High-level timeline and key milestones - created by **PM** with **PdM**
+- Initial risk list - captured by **PM** with team input
+- Resource needs (team roles, rough effort estimate) - defined by **PM**, considering roles like **Developers**, **QA**, **DevOps**, **UX/UI Designer**, etc.
+
+For detailed role responsibilities during initiation, see the [RACI matrix in Roles and Personas](octoacme-roles-and-personas.md).
 
 ## Project One-pager Template
 - Project name:

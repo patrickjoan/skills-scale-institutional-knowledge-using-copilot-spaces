@@ -17,11 +17,13 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Require at least one approval before merging (or team-defined policy)
 
 ## Quality & Testing
-- Unit tests for new logic
-- Integration tests where applicable
-- End-to-end smoke tests for critical flows before release
-- Security scanning in CI
-- Manual QA for feature acceptance when needed
+- Unit tests for new logic (owned by **Developers**)
+- Integration tests where applicable (coordinated by **QA** and **Developers**)
+- End-to-end smoke tests for critical flows before release (executed by **QA**)
+- Security scanning in CI (managed by **DevOps Engineers**)
+- Manual QA for feature acceptance when needed (performed by **QA**)
+
+CI/CD pipeline management and test automation infrastructure is maintained by **DevOps Engineers**.
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -29,9 +31,11 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Use dashboards for key signals (errors, latency, usage)
 
 ## Blocker Escalation
-- Level 1: Team-level triage in daily standup
-- Level 2: PM escalates to Product Lead and dependent teams
+- Level 1: Team-level triage in daily standup (facilitated by **Scrum Master** if available)
+- Level 2: **PM** escalates to Product Lead and dependent teams
 - Level 3: Sponsor-level escalation for business-impacting issues
+
+For more details on role responsibilities in execution, see [Roles and Personas](octoacme-roles-and-personas.md).
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
